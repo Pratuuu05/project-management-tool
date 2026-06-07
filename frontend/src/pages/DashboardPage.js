@@ -6,7 +6,7 @@ import { useAuth } from '../context/AuthContext';
 import ProjectModal from '../components/ProjectModal';
 import { format } from 'date-fns';
 
-const STATUS_COLORS = { planning: 'blue', active: 'active', 'on-hold': 'on-hold', completed: 'completed' };
+
 const PRIORITY_DOT = { low: '#34d399', medium: '#fbbf24', high: '#fb7b24', critical: '#f87171' };
 
 export default function DashboardPage() {
